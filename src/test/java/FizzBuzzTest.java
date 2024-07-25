@@ -13,7 +13,7 @@ public class FizzBuzzTest {
     assertThat(fizzBuzz.checkNumber(5), is("Buzz"));
     assertThat(fizzBuzz.checkNumber(15), is("FizzBuzz"));
     assertThat(fizzBuzz.checkNumber(13), is("Fizz"));
-    assertThat(fizzBuzz.checkNumber(85), is("Buzz"));
+    assertThat(fizzBuzz.checkNumber(52), is("Buzz"));
     assertThat(fizzBuzz.checkNumber(2), is("2"));
 }
 }
