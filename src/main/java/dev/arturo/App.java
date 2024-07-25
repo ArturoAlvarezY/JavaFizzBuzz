@@ -1,5 +1,7 @@
 package dev.arturo;
 
+import dev.arturo.models.FizzBuzz;
+
 /**
  * Hello world!
  */
@@ -12,6 +14,8 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        System.out.println(fizzBuzz.checkNumber(354));
     }
 }

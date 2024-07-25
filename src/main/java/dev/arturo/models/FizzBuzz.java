@@ -1,7 +1,7 @@
 package dev.arturo.models;
 
 public class FizzBuzz {
-    
+
     public String checkNumber(int numb){
 
         boolean divisibleBy3 = numb % 3 == 0;
@@ -24,4 +24,6 @@ public class FizzBuzz {
         return Integer.toString(numb);
     }
     }
+
+    
 }
